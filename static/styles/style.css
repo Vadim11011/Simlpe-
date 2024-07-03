@@ -45,9 +45,7 @@
         margin: 5px;
         font-size: 24px;
     }
-
     a {
-
         display: flex;
     }
 }
@@ -59,7 +57,7 @@
 .menu_btn {
     display: none;
     border: none;
-    background: transparent none;
+    background: transparent;
     padding-top: 10px;
     padding-bottom: 7px;
     cursor: pointer;
@@ -564,7 +562,7 @@ body {
         width: auto;
     }
 
-    .search_div, menu_btn {
+    .search_div, .menu_btn {
         display: block;
     }
 
